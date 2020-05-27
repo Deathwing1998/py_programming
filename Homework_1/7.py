@@ -1,9 +1,10 @@
-x = int(input('x: '))
-y = int(input('y: '))
-s = 0
+x = input('Load x = ')
+y = input('Load y = ')
+x = int(x)
+y = int(y)
+I = 0
+for x in range(x, y + 1):
+    if not x % 5:
+        I += x
 
-for num in range(x, y + 1):
-    if not num % 5:
-        s += num
-
-print(s)
+print(x)        
