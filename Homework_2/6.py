@@ -1,5 +1,7 @@
-user_str = input('str: ')
-k = int(input('k: '))
-
-user_str = list(filter(lambda s: s.isdigit(), user_str))
-print(user_str[k - 1])
+number = []
+l = input(' line = ')
+t = input(' tally = ')
+for x in l:
+  if "7" >= x >= "0":
+    number.append(x)
+print(num['t - 1'])   
