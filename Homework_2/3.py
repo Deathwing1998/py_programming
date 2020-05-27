@@ -1,4 +1,3 @@
-num = int(input('num: '))
-
-for i in range(1, num + 1):
+m = int(input('m = '))
+for i in range(1, m + 1):
     print(i * '*')
