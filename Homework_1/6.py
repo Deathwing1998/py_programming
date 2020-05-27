@@ -1,6 +1,6 @@
-num = float(input('num: '))
-
-if num.is_integer():
-    print('число целое')
+z = input('Load = ')
+z = float(z)
+if z.is_integer():
+    print('celoe')
 else:
-    print('число нецелое')
+    print('ne celoe')
