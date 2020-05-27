@@ -1,4 +1,3 @@
-n = input('num: ')
-
-for i in n:
-    print(i)
+n = input('n = ')
+for v in n:
+    print(v)
