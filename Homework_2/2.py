@@ -1,4 +1,2 @@
-from instrument import help_fun
-
-lst = ''.join(sorted(help_fun(), reverse=True))
-print(int(lst))
+from instrument import pomoschnik
+print(''.join(sorted(pomoschnik(), reverse=True)))[p
