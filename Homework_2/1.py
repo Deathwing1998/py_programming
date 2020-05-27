@@ -1,3 +1,2 @@
-from instrument import help_fun
-
-print(help_fun())
+from instrument import pomoschnik
+print(pomoschnik())
