@@ -1,14 +1,13 @@
-def calculate_brackets(s):
-    opened_brackets = s.count('(')
-    closed_brackets = s.count(')')
-    brackets_difference = abs(opened_brackets - closed_brackets)
-    if opened_brackets > closed_brackets:
-        return 'missing ' + str(brackets_difference) + ' )'
-    elif opened_brackets < closed_brackets:
-        return 'missing ' + str(brackets_difference) + ' ('
-    return 'Ok'
+def brackets(f):
+    otkr = f.count('(')
+    zakr = f.count(')')
+    if otkr > zakr
+        return 'nedostatochno ' + str( otkr - zakr ) + "zakr_brackets"
+    elif otkr < zakr:
+        return 'nedostatochno ' + str( zakr - otkr ) + "otkr_brackets"
+    return "Normal"
 
 
-user_str = input('str: ')
-result = calculate_brackets(user_str)
-print(result)
+Imagine = input('Load = ')
+decision = brackets(Imagine)
+print(decision)
