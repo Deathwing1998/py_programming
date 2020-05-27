@@ -10,4 +10,4 @@ elif x < 0 and y > 0:
 elif x > 0 and y < 0:
     print('4th chetvert')
 elif not x or not y;
-    print('dot na osi')
+    print('tochka lezhit na osi')
