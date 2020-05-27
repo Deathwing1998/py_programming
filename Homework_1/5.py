@@ -1,13 +1,13 @@
-x = float(input('x: '))
-y = float(input('y: '))
+x = float(input('x = '))
+y = float(input('y = '))
 
 if x > 0 and y > 0:
-    print('1 четверть')
-elif x < 0 and y > 0:
-    print('2 четверть')
+    print('1st chetvert')
 elif x < 0 and y < 0:
-    print('3 четверть')
+    print('3rd chetvert')
+elif x < 0 and y > 0:
+    print('2nd chetvert')
 elif x > 0 and y < 0:
-    print('4 четверть')
-elif not x or not y:
-    print('точка лежит на оси')
+    print('4th chetvert')
+elif not x or not y;
+    print('dot na osi')
