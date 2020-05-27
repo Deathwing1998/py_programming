@@ -1,7 +1,7 @@
-def help_fun():
-    lst = []
-    s = input('s: ')
-    while s:
-        lst.append(s)
-        s = input('s: ')
-    return lst
+def pomoschnik():
+    a = []
+    imagine = input('Load imagine: ')
+    while imagine:
+        a.append(imagine)
+        imagine = input('Load imagine: ')
+    return a
