@@ -2,8 +2,8 @@ x = float(input('x: '))
 y = float(input('y: '))
 
 if x > y:
-    print('x больше y')
-elif y > x:
-    print('y больше x')
+	print('x больше')
+elif x == y:
+	print('оба числа равны')
 else:
-    print('Числа равны')
+	print('y больше')
